@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: black;
+}
+
+.header {
+    background: rgb(15,9,99);
+    background: radial-gradient(circle, rgba(15,9,99,1) 0%, rgba(0,0,0,1) 100%);
+    box-shadow: 0 0 10px rgb(179, 6, 141); 
+    text-align: center;
+    padding: 50px 0;
+} 
+
+.header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    margin: 20px 0;
+}
+
+.navbar {
+    width: 30%;
+    padding: 30px;
+    margin: 10px;
+}
+
+.content {
+    width: 70%;
+    border: 3px solid rgba(5,9,62,1);
+    background: rgb(9,15,106);
+    background: linear-gradient(180deg, rgba(9,15,106,1) 8%, rgba(5,9,62,1) 100%);
+    box-shadow: 0 0 10px rgb(179, 6, 141); 
+    border-radius: 50px 0 0;
+    padding: 30px;
+    margin: 10px;
+}
+
+.footer {
+    background: rgb(15,9,99);
+    background: radial-gradient(circle, rgba(15,9,99,1) 0%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    padding: 20pX 0;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgb(179, 6, 141); 
+}
+
+.navbar li {
+    margin: 10px 0;
+}
+
+.navbar ul li {
+    display: block;
+    background: rgb(9,15,106);
+    background: linear-gradient(180deg, rgb(9, 15, 106) 8%, rgba(5,9,62,1) 100%);
+    box-shadow: 0 0 5px rgb(179, 6, 141);  
+    padding: 15px 20px;
+    border-radius: 20px 0 20px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    color: black;
+}
